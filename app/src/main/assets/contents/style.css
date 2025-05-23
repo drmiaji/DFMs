@@ -1,0 +1,165 @@
+/* ========== CSS VARIABLES ========== */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111;
+    --heading-color: #006400;
+    --arabic-color: #000000;
+    --highlight-color: #b22222;
+    --blockquote-bg: #f5f5f5;
+    --blockquote-border: #006400;
+    --quote-bg: #f1f8e9;
+    --quote-border: #008B5B;
+    --btn-bg: #0047ab;
+    --btn-text: #ffffff;
+    --link-color: #0047AB;
+}
+
+html.dark {
+    --bg-color: #151515;
+    --text-color: #cccccc;
+    --heading-color: #90ee90;
+    --arabic-color: #dddddd;
+    --highlight-color: #ff7f7f;
+    --blockquote-bg: #202020;
+    --blockquote-border: #90ee90;
+    --quote-bg: #2f402f;
+    --quote-border: #90ee90;
+    --btn-bg: #90caf9;
+    --btn-text: #101010;
+    --link-color: #90caf9;
+}
+
+/* ========== BASE RESET & FONT ========== */
+@font-face {
+    font-family: 'Solaimanlipi';
+    src: url('../font/solaimanlipi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quran-arabic';
+    src: url('../font/indopak.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 16px;
+    font-family: 'Solaimanlipi', 'Segoe UI', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: justify;
+}
+
+/* ========== HEADINGS ========== */
+h1, h2, h3 {
+    font-weight: bold;
+    color: var(--heading-color);
+    margin: 16px 0 8px;
+}
+h1, h2, h3, h4, h5, h6 {
+    direction: ltr;
+    text-align: left;
+}
+
+/* ========== TEXT ========== */
+p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.arabic {
+    font-family: 'quran-arabic', serif;
+    font-size: 24px;
+    color: var(--arabic-color);
+    direction: rtl;
+    text-align: justify;
+    line-height: 1.8;
+    margin: 16px 0;
+}
+
+.bangla {
+    font-size: 18px;
+    color: var(--text-color);
+    direction: ltr;
+    text-align: justify;
+    margin: 10px 0 20px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: var(--highlight-color);
+}
+
+sup {
+    font-size: 12px;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+/* ========== QUOTES ========== */
+blockquote {
+    font-size: 18px;
+    padding: 10px 16px;
+    margin: 12px 0;
+    background-color: var(--blockquote-bg);
+    border-left: 4px solid var(--blockquote-border);
+}
+
+.bangla-quote {
+    font-size: 18px;
+    background-color: var(--quote-bg);
+    color: var(--text-color);
+    border-left: 4px solid var(--quote-border);
+    padding: 10px 16px;
+    margin: 12px 0;
+    border-radius: 6px;
+}
+
+/* ========== HORIZONTAL RULE ========== */
+hr {
+    margin: 20px 0;
+}
+
+/* ========== TOC LINKS ========== */
+.toc a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+html.dark .toc a {
+    text-decoration: underline;
+}
+
+/* ========== GO TO TOP BUTTON ========== */
+#goTopBtn {
+    position: fixed;
+    bottom: 32px;
+    right: 24px;
+    z-index: 1000;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 50%;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    display: none;
+}
+
+/* ========== THEME TOGGLE BUTTON ========== */
+#themeToggle {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 1001;
+    padding: 8px 18px;
+    border-radius: 8px;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    font-size: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}

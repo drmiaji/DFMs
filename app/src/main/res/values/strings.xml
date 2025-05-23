@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">চল্লিশ হাদিস\nমুখস্ত রাখার ফযিলত</string>
+    <string name="about_us">About us</string>
+    <string name="about">www.drmiaji.com</string>
+    <string name="action_content">সূচী/Content</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_exit">*******************\nজাজাকাল্লাহু খাইরান!\n*******************\n\nআপনি কি বের হতে চান? আবার আমন্ত্রণ রইলো!</string>
+    <string name="action_share">বইটি শেয়ার করতে এখানে ক্লিক করুন!</string>
+    <string name="feedBack">Please give us 5 star!\n৫ স্টার কাম্য!</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share_message">আসসালামু আলাইকুম ওয়ারাহমাতুল্লাহ\t \nগুরুত্বপূর্ণ ৪০টি হাদিস নিয়ে এই এপ। আমার খুব ভালো লেগেছে, আর আশা করি আপনারও ভালো লাগবে। নিচের লিংক থেকে আপনার Android ফোনে এই এপটি ইন্সটল করতে পারবেন। \nজাজাকুমুল্লাহু খাইরান!\t \nhttps://play.google.com/store/apps/details?id=com.drmiaji.fortyahadith</string>
+    <string name="login_cancelled">Login Cancelled.</string>
+    <string name="login_error">login_error</string>
+
+    <!-- Strings related to login -->
+    <string name="share_subject">Subject</string>
+    <string name="enter_search_text">Enter search text</string>
+    <string name="about2">আমাদের সম্পর্কে</string>
+    <string name="about_us2">প্রোগ্রামিংঃ\nডক্টর আব্দুল বাতেন মিয়াজী\n\nইসলামী বিষয়াদি সম্পর্কে জানতে এবং অনলাইনে গ্রন্থাগার থেকে গুরুত্বপূর্ণ কিতাব ডাউনলোড করতে নিচের লিংকে ভিজিট করুন।</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="dr_abdul_baten_miaji">Dr Abdul Baten Miaji</string>
+    <string name="email">bmiaji@gmail.com</string>
+    <string name="be_connected">Be Connected</string>
+    <string name="islamic_websites">Islamic Websites</string>
+    <string name="bokhtiyar">মুফতি মুহাম্মদ বখতিয়ার উদ্দিন</string>
+    <string name="dr_allama_tahirul_qadri">Dr Allama Tahirul Qadri</string>
+    <string name="minhaz_ul_quran">Minhaz ul Quran</string>
+</resources>

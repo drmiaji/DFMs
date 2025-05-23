@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Optional: Override dark-specific primary/surface colors -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/teal_200</item>
+
+        <!-- Dark-specific system bar content (light icons for dark background) -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
